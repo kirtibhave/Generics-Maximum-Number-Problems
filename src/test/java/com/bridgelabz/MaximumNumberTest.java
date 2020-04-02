@@ -43,5 +43,12 @@ public class MaximumNumberTest {
         Float result=maximumNumber.getMaximumFloatNumber(3.97f,8.8f,5.94f);
         Assert.assertEquals(Float.valueOf(8.8f),result);
     }
+
+    //2.3
+    @Test
+    public void givenMaximumFloatNumber_WhenAtThirdPosition_ShouldReturnSameNumber(){
+        Float result=maximumNumber.getMaximumFloatNumber(5.94f,3.97f,8.8f);
+        Assert.assertEquals(Float.valueOf(8.8f),result);
+    }
 }
 
