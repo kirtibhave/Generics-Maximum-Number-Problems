@@ -1,15 +1,24 @@
 package com.bridgelabz;
 
-public class MaximumNumber {
-    public <E extends Comparable<E>> E getMaximumNumber(E firstNumber, E secondNumber, E thirdNumber) {
-        E maximumNumber = firstNumber;
-        if (maximumNumber.compareTo(secondNumber) < 0) {
-            maximumNumber= secondNumber;
-        }
-        if (maximumNumber.compareTo(thirdNumber) < 0) {
-            maximumNumber= thirdNumber;
-        }
-        return maximumNumber;
-    }
-}
+public class MaximumNumber <E extends Comparable<E>> {
+    E firstNumber;
+    E secondNUmber;
+    E thirdNumber;
 
+    public MaximumNumber(E firstNumber,E secondNUmber,E thirdNumber){
+        this.firstNumber=firstNumber;
+        this.secondNUmber=secondNUmber;
+        this.thirdNumber=thirdNumber;
+        }
+
+        public E testMaximum() {
+            E maximumNumber = firstNumber;
+            if (maximumNumber.compareTo(secondNUmber) < 0) {
+                maximumNumber = secondNUmber;
+            }
+            if (maximumNumber.compareTo(thirdNumber) < 0) {
+                maximumNumber = thirdNumber;
+            }
+            return maximumNumber;
+        }
+    }

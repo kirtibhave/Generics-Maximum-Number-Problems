@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.MaximumNumberTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-04-02T18:04:38" hostname="kirts" time="0.006">
+<testsuite name="com.bridgelabz.MaximumNumberTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-04-02T18:24:12" hostname="kirts" time="0.009">
   <properties/>
-  <testcase name="givenMaximumStringNumber_WhenAtSecondPosition_ShouldReturnSameNumber" classname="com.bridgelabz.MaximumNumberTest" time="0.002"/>
-  <testcase name="givenMaximumStringNumber_WhenAtThirdPosition_ShouldReturnSameNumber" classname="com.bridgelabz.MaximumNumberTest" time="0.0"/>
-  <testcase name="givenMaximumFloatNumber_WhenAtSecondPosition_ShouldReturnSameNumber" classname="com.bridgelabz.MaximumNumberTest" time="0.0"/>
-  <testcase name="givenMaximumIntegerNumber_WhenAtThirdPosition_ShouldReturnSameNumber" classname="com.bridgelabz.MaximumNumberTest" time="0.0"/>
+  <testcase name="givenMaximumStringNumber_WhenAtSecondPosition_ShouldReturnSameNumber" classname="com.bridgelabz.MaximumNumberTest" time="0.003"/>
+  <testcase name="givenMaximumStringNumber_WhenAtThirdPosition_ShouldReturnSameNumber" classname="com.bridgelabz.MaximumNumberTest" time="0.001"/>
+  <testcase name="givenMaximumFloatNumber_WhenAtSecondPosition_ShouldReturnSameNumber" classname="com.bridgelabz.MaximumNumberTest" time="0.001"/>
+  <testcase name="givenMaximumIntegerNumber_WhenAtThirdPosition_ShouldReturnSameNumber" classname="com.bridgelabz.MaximumNumberTest" time="0.001"/>
   <testcase name="givenMaximumIntegerNumber_WhenAtSecondPosition_ShouldReturnSameNumber" classname="com.bridgelabz.MaximumNumberTest" time="0.0"/>
   <testcase name="givenMaximumStringNumber_WhenAtFirstPosition_ShouldReturnSameNumber" classname="com.bridgelabz.MaximumNumberTest" time="0.0"/>
   <testcase name="givenMaximumIntegerNumber_WhenAtFirstPosition_ShouldReturnSameNumber" classname="com.bridgelabz.MaximumNumberTest" time="0.0"/>
