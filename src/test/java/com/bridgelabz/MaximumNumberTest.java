@@ -50,5 +50,13 @@ public class MaximumNumberTest {
         Float result=maximumNumber.getMaximumFloatNumber(5.94f,3.97f,8.8f);
         Assert.assertEquals(Float.valueOf(8.8f),result);
     }
+
+    //3.1
+    @Test
+    public void givenMaximumStringValue_WhenAtFirstPosition_ShouldReturnSameValue(){
+        String result=maximumNumber.getMaximumStringValue("Peach","Apple","Banana");
+        Assert.assertEquals(String.valueOf("Peach"),result);
+    }
 }
+
 
