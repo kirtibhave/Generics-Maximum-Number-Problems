@@ -12,67 +12,54 @@ public class MaximumNumberTest {
         maximumNumber = new MaximumNumber();
     }
 
-    //1.1
     @Test
     public void givenMaximumIntegerNumber_WhenAtFirstPosition_ShouldReturnSameNumber() {
-        Assert.assertSame(86, maximumNumber.getMaximumNumberInteger(86, 34, 20));
+        Assert.assertSame(60, maximumNumber.getMaximumNumber(60, 40, 10));
     }
 
-    //1.2
     @Test
     public void givenMaximumIntegerNumber_WhenAtSecondPosition_ShouldReturnSameNumber() {
-        Assert.assertSame(86, maximumNumber.getMaximumNumberInteger(34, 86, 20));
+        Assert.assertSame(60, maximumNumber.getMaximumNumber(40, 60, 10));
     }
 
-    //1.3
     @Test
     public void givenMaximumIntegerNumber_WhenAtThirdPosition_ShouldReturnSameNumber() {
-        Assert.assertSame(86, maximumNumber.getMaximumNumberInteger(34, 20, 86));
+        Assert.assertSame(60, maximumNumber.getMaximumNumber(20, 40, 60));
     }
 
-    //2.1
     @Test
     public void givenMaximumFloatNumber_WhenAtFirstPosition_ShouldReturnSameNumber() {
-        Float result = maximumNumber.getMaximumFloatNumber(8.8f, 3.97f, 5.94f);
-        Assert.assertEquals(Float.valueOf(8.8f), result);
+        Float result = maximumNumber.getMaximumNumber(7.00f, 6.00f, 6.78f);
+        Assert.assertEquals(Float.valueOf(7.00f), result);
     }
 
-    //2.2
     @Test
     public void givenMaximumFloatNumber_WhenAtSecondPosition_ShouldReturnSameNumber() {
-        Float result = maximumNumber.getMaximumFloatNumber(3.97f, 8.8f, 5.94f);
-        Assert.assertEquals(Float.valueOf(8.8f), result);
+        Float result = maximumNumber.getMaximumNumber(6.00f, 7.00f, 6.78f);
+        Assert.assertEquals(Float.valueOf(7.00f), result);
     }
 
-    //2.3
     @Test
     public void givenMaximumFloatNumber_WhenAtThirdPosition_ShouldReturnSameNumber() {
-        Float result = maximumNumber.getMaximumFloatNumber(5.94f, 3.97f, 8.8f);
-        Assert.assertEquals(Float.valueOf(8.8f), result);
+        Float result = maximumNumber.getMaximumNumber(6.00f, 6.78f, 7.00f);
+        Assert.assertEquals(Float.valueOf(7.00f), result);
     }
 
-    //3.1
     @Test
-    public void givenMaximumStringValue_WhenAtFirstPosition_ShouldReturnSameValue() {
-        String result = maximumNumber.getMaximumStringValue("Peach", "Apple", "Banana");
+    public void givenMaximumStringNumber_WhenAtFirstPosition_ShouldReturnSameNumber() {
+        String result = maximumNumber.getMaximumNumber("Peach", "Apple", "Banana");
         Assert.assertEquals(String.valueOf("Peach"), result);
     }
 
-    //3.2
     @Test
-    public void givenMaximumStringValue_WhenAtSecondPosition_ShouldReturnSameValue() {
-        String result = maximumNumber.getMaximumStringValue("Apple", "Peach", "Banana");
+    public void givenMaximumStringNumber_WhenAtSecondPosition_ShouldReturnSameNumber() {
+        String result = maximumNumber.getMaximumNumber("Apple", "Peach", "Banana");
         Assert.assertEquals(String.valueOf("Peach"), result);
     }
 
-    //3.3
     @Test
-    public void givenMaximumStringValue_WhenAtThirdPosition_ShouldReturnSameValue() {
-        String result = maximumNumber.getMaximumStringValue("Apple", "Banana", "Peach");
+    public void givenMaximumStringNumber_WhenAtThirdPosition_ShouldReturnSameNumber() {
+        String result = maximumNumber.getMaximumNumber("Apple", "Banana", "Peach");
         Assert.assertEquals(String.valueOf("Peach"), result);
     }
 }
-
-
-
-
