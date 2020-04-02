@@ -29,5 +29,12 @@ public class MaximumNumberTest {
     public void givenMaximumIntegerNumber_WhenAtThirdPosition_ShouldReturnSameNumber(){
         Assert.assertSame(86,maximumNumber.getMaximumNumberInteger(34,20,86));
     }
+
+    //2.1
+    @Test
+    public void givenMaximumFloatNumber_WhenAtFirstPosition_ShouldReturnSameNumber(){
+        Float result=maximumNumber.getMaximumFloatNumber(8.8f,3.97f,5.94f);
+        Assert.assertEquals(Float.valueOf(8.8f),result);
+    }
 }
 

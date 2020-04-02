@@ -11,4 +11,15 @@ public class MaximumNumber {
             }
             return maximumNumber;
         }
+
+    public Float getMaximumFloatNumber(Float firstNumber, Float secondNumber, Float thirdNumber) {
+        Float maxNumber = firstNumber;
+        if (maxNumber.compareTo(secondNumber) < 0) {
+            maxNumber = secondNumber;
+        }
+        if (maxNumber.compareTo(thirdNumber) < 0) {
+            maxNumber = thirdNumber;
+        }
+        return maxNumber;
+    }
 }
