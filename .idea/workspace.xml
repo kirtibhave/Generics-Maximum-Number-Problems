@@ -39,20 +39,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Gradle.MaximumNumberTest.givenMaximumFloatNumber_WhenAtSecondPosition_ShouldReturnSameNumber">
-    <configuration name="MaximumNumberTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.MaximumNumberTest" />
-      <module name="GenericsMaximumNumberProblem.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bridgelabz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Gradle.MaximumNumberTest.givenMaximumStringValue_WhenAtFirstPosition_ShouldReturnSameValue">
     <configuration name="MaximumNumberTest.givenMaximumFloatNumber_WhenAtFirstPosition_ShouldReturnSameNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -133,13 +120,33 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="MaximumNumberTest.givenMaximumStringValue_WhenAtFirstPosition_ShouldReturnSameValue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.MaximumNumberTest.givenMaximumStringValue_WhenAtFirstPosition_ShouldReturnSameValue&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MaximumNumberTest.givenMaximumStringValue_WhenAtFirstPosition_ShouldReturnSameValue" />
         <item itemvalue="Gradle.MaximumNumberTest.givenMaximumFloatNumber_WhenAtSecondPosition_ShouldReturnSameNumber" />
         <item itemvalue="Gradle.MaximumNumberTest.givenMaximumFloatNumber_WhenAtFirstPosition_ShouldReturnSameNumber" />
         <item itemvalue="Gradle.MaximumNumberTest.givenMaximumIntegerNumber_WhenAtSecondPosition_ShouldReturnSameNumber" />
         <item itemvalue="Gradle.MaximumNumberTest.givenMaximumIntegerNumber_WhenAtFirstPosition_ShouldReturnSameNumber" />
-        <item itemvalue="Application.MaximumNumberTest" />
       </list>
     </recent_temporary>
   </component>
@@ -157,22 +164,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1585847918641">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1585849788088">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585847918641" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1585847918641">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585849788088" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1585849788088">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585847918641" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1585847918641">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585849788088" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1585849788088">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585847918641" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1585847918641">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585849788088" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1585849788088">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585847918641" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585849788088" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1585847675102">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -57,6 +57,14 @@ public class MaximumNumberTest {
         String result=maximumNumber.getMaximumStringValue("Peach","Apple","Banana");
         Assert.assertEquals(String.valueOf("Peach"),result);
     }
+
+    //3.2
+    @Test
+    public void givenMaximumStringValue_WhenAtSecondPosition_ShouldReturnSameValue(){
+        String result=maximumNumber.getMaximumStringValue("Apple","Peach","Banana");
+        Assert.assertEquals(String.valueOf("Peach"),result);
+    }
 }
+
 
 
