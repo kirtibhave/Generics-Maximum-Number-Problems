@@ -8,63 +8,71 @@ public class MaximumNumberTest {
     MaximumNumber maximumNumber;
 
     @Before
-    public  void initializedMethod(){
-        maximumNumber=new MaximumNumber();
+    public void initializedMethod() {
+        maximumNumber = new MaximumNumber();
     }
 
     //1.1
     @Test
-    public void givenMaximumIntegerNumber_WhenAtFirstPosition_ShouldReturnSameNumber(){
-        Assert.assertSame(86,maximumNumber.getMaximumNumberInteger(86,34,20));
+    public void givenMaximumIntegerNumber_WhenAtFirstPosition_ShouldReturnSameNumber() {
+        Assert.assertSame(86, maximumNumber.getMaximumNumberInteger(86, 34, 20));
     }
 
     //1.2
     @Test
-    public void givenMaximumIntegerNumber_WhenAtSecondPosition_ShouldReturnSameNumber(){
-        Assert.assertSame(86,maximumNumber.getMaximumNumberInteger(34,86,20));
+    public void givenMaximumIntegerNumber_WhenAtSecondPosition_ShouldReturnSameNumber() {
+        Assert.assertSame(86, maximumNumber.getMaximumNumberInteger(34, 86, 20));
     }
 
     //1.3
     @Test
-    public void givenMaximumIntegerNumber_WhenAtThirdPosition_ShouldReturnSameNumber(){
-        Assert.assertSame(86,maximumNumber.getMaximumNumberInteger(34,20,86));
+    public void givenMaximumIntegerNumber_WhenAtThirdPosition_ShouldReturnSameNumber() {
+        Assert.assertSame(86, maximumNumber.getMaximumNumberInteger(34, 20, 86));
     }
 
     //2.1
     @Test
-    public void givenMaximumFloatNumber_WhenAtFirstPosition_ShouldReturnSameNumber(){
-        Float result=maximumNumber.getMaximumFloatNumber(8.8f,3.97f,5.94f);
-        Assert.assertEquals(Float.valueOf(8.8f),result);
+    public void givenMaximumFloatNumber_WhenAtFirstPosition_ShouldReturnSameNumber() {
+        Float result = maximumNumber.getMaximumFloatNumber(8.8f, 3.97f, 5.94f);
+        Assert.assertEquals(Float.valueOf(8.8f), result);
     }
 
     //2.2
     @Test
-    public void givenMaximumFloatNumber_WhenAtSecondPosition_ShouldReturnSameNumber(){
-        Float result=maximumNumber.getMaximumFloatNumber(3.97f,8.8f,5.94f);
-        Assert.assertEquals(Float.valueOf(8.8f),result);
+    public void givenMaximumFloatNumber_WhenAtSecondPosition_ShouldReturnSameNumber() {
+        Float result = maximumNumber.getMaximumFloatNumber(3.97f, 8.8f, 5.94f);
+        Assert.assertEquals(Float.valueOf(8.8f), result);
     }
 
     //2.3
     @Test
-    public void givenMaximumFloatNumber_WhenAtThirdPosition_ShouldReturnSameNumber(){
-        Float result=maximumNumber.getMaximumFloatNumber(5.94f,3.97f,8.8f);
-        Assert.assertEquals(Float.valueOf(8.8f),result);
+    public void givenMaximumFloatNumber_WhenAtThirdPosition_ShouldReturnSameNumber() {
+        Float result = maximumNumber.getMaximumFloatNumber(5.94f, 3.97f, 8.8f);
+        Assert.assertEquals(Float.valueOf(8.8f), result);
     }
 
     //3.1
     @Test
-    public void givenMaximumStringValue_WhenAtFirstPosition_ShouldReturnSameValue(){
-        String result=maximumNumber.getMaximumStringValue("Peach","Apple","Banana");
-        Assert.assertEquals(String.valueOf("Peach"),result);
+    public void givenMaximumStringValue_WhenAtFirstPosition_ShouldReturnSameValue() {
+        String result = maximumNumber.getMaximumStringValue("Peach", "Apple", "Banana");
+        Assert.assertEquals(String.valueOf("Peach"), result);
     }
 
     //3.2
     @Test
-    public void givenMaximumStringValue_WhenAtSecondPosition_ShouldReturnSameValue(){
-        String result=maximumNumber.getMaximumStringValue("Apple","Peach","Banana");
-        Assert.assertEquals(String.valueOf("Peach"),result);
+    public void givenMaximumStringValue_WhenAtSecondPosition_ShouldReturnSameValue() {
+        String result = maximumNumber.getMaximumStringValue("Apple", "Peach", "Banana");
+        Assert.assertEquals(String.valueOf("Peach"), result);
+    }
+
+    //3.3
+    @Test
+    public void givenMaximumStringValue_WhenAtThirdPosition_ShouldReturnSameValue() {
+        String result = maximumNumber.getMaximumStringValue("Apple", "Banana", "Peach");
+        Assert.assertEquals(String.valueOf("Peach"), result);
     }
 }
+
 
 
 
