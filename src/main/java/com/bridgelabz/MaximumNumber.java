@@ -1,24 +1,28 @@
 package com.bridgelabz;
 
+import java.util.Arrays;
+import java.util.Collections;
+
 public class MaximumNumber <E extends Comparable<E>> {
-    E firstNumber;
-    E secondNUmber;
-    E thirdNumber;
-
-    public MaximumNumber(E firstNumber,E secondNUmber,E thirdNumber){
-        this.firstNumber=firstNumber;
-        this.secondNUmber=secondNUmber;
-        this.thirdNumber=thirdNumber;
+    public static <E extends Comparable<E>> E getMaximumNumber(E firstNumber,E secondNumber,E thirdNumber,E...AnyNumberArgument){
+        E maximumNumber = firstNumber;
+        if (maximumNumber.compareTo(secondNumber) < 0 ){
+            maximumNumber = secondNumber;
         }
 
-        public E testMaximum() {
-            E maximumNumber = firstNumber;
-            if (maximumNumber.compareTo(secondNUmber) < 0) {
-                maximumNumber = secondNUmber;
-            }
-            if (maximumNumber.compareTo(thirdNumber) < 0) {
-                maximumNumber = thirdNumber;
-            }
-            return maximumNumber;
+        if (maximumNumber.compareTo(thirdNumber) < 0){
+            maximumNumber = thirdNumber;
         }
+
+        if(AnyNumberArgument.length != 0) {
+        Arrays.sort(AnyNumberArgument, Collections.reverseOrder());
+        if ( maximumNumber.compareTo(AnyNumberArgument[0])<0){
+        maximumNumber= AnyNumberArgument[0];
+        }
+
+        }
+        return maximumNumber;
     }
+}
+
+
