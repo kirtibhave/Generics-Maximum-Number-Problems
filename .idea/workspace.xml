@@ -164,25 +164,36 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1585882128959">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1585882892112">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585882128959" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1585882128959">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585882892112" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1585882892112">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585882128959" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1585882128959">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585882892112" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1585882892112">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585882128959" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1585882128959">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585882892112" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1585882892112">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585882128959" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1585847675102">
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585882892112" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1585882835145">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1585847675102" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1585882835145" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/bridgelabz/MaximumNumberTest.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

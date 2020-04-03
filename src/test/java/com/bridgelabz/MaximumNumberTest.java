@@ -64,7 +64,7 @@ public class MaximumNumberTest {
     @Test
     public void givenMaximumStringNumber_WhenAtThirdPosition_ShouldReturnThirdNumber() {
         MaximumNumber maximumNumber = new MaximumNumber();
-        String maxNumber = (String) maximumNumber .getMaximumNumber("Apple", "Banana", "Peach", "Mango");
+        String maxNumber = (String) maximumNumber.getMaximumNumber("Apple", "Banana", "Peach", "Mango");
         Assert.assertEquals("Peach", maxNumber);
     }
 }
